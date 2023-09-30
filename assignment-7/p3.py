@@ -1,7 +1,11 @@
 
-sample_dict = {0: 10, 1: 20}
+
+dic1 = {1: 10, 2: 20}
+dic2 = {3: 30, 4: 40}
+dic3 = {5: 50, 6: 60}
 
 
-sample_dict[2] = 30
+result_dict = {**dic1, **dic2, **dic3}
 
-print("Updated Dictionary:", sample_dict)
+
+print("Concatenated Dictionary:", result_dict)
